@@ -59,7 +59,7 @@ btnHold.addEventListener("click", function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
     // 2. Chech if players global score => 100
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       //   fihish the game or
       playing = false;
       document
